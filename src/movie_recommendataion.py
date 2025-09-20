@@ -269,7 +269,7 @@ if __name__ == "__main__":
         learner.step5_user_based_collaborative_filtering()
         # print sample recommendations for user_id 1
         if 'user_based' in learner.trained_model:
-            print(f"Recommended Movie for user id 1: {learner.trained_model['user_based'](1, 5)}")
+            print(f"Recommended Movie for user id 1: {learner.trained_model['user_based'](50, 5)}")
             
 
     else:
